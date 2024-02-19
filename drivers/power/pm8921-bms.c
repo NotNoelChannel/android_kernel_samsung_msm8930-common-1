@@ -30,6 +30,7 @@
 #include <linux/delay.h>
 #include <linux/mutex.h>
 #include <linux/rtc.h>
+#include <linux/wakelock.h>
 #if  defined(CONFIG_MACH_SERRANO_KOR_LTE)
 #include <mach/msm8930-gpio.h>
 #include <linux/gpio.h>
